@@ -1,0 +1,8 @@
+   0 mkdir -p /tmp/vova/hw3
+   1 date >> /tmp/vova/hw3/newfile.txt
+   2 echo "Homework 3" >> /tmp/vova/hw3/newfile.txt 
+   3 df -h >> /tmp/vova/hw3/newfile.txt 
+   4 history | tail -5 >> /tmp/vova/hw3/newfile.txt 
+   5 cat /proc/cpuinfo | grep vendor >> /tmp/vova/hw3/newfile.txt 
+   6 cat /tmp/vova/hw3/newfile.txt 
+   7 history > history_6.txt
